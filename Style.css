@@ -1,0 +1,27 @@
+.Group1 {
+    font-size: 25px;
+    height: 100%;
+    background-color: darkkhaki;
+    background-image: url(background.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px dashed rgb(20, 218, 175);
+    border-radius: 10px;
+    cursor: text;
+    float: none;
+    display: block;
+}
+
+.example {
+    line-height: 40px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.heading {
+    line-height: 40px;
+    margin: 10px;
+    padding: 40px;
+}

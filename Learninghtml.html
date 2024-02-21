@@ -1,25 +1,33 @@
-<html>
+<!-- This is an HTML document with various tags and elements explained through comments -->
 
 <head>
+    <!-- The head section contains meta-information about the HTML document, including the title and style -->
     <title>Welcome to my website</title>
     <style>
-        p{
+        /* Internal CSS styles for paragraphs */
+        p {
             font-size: 18px;
             font-weight: normal;
-            color:rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
         }
-        /* The above is an example of internal css */
-
     </style>
 </head>
 
 <body>
+    <!-- The body section contains the visible content of the webpage -->
+
+    <!-- Heading Tags -->
     <h1>Part 1: Learning some basic tags</h1>
-    <h2>The above title is how an "h1" tag looks like, this is an "h2" tag </h2>
+    <h2>The above title is how an "h1" tag looks like, this is an "h2" tag</h2>
     <h3>This is an "h3" tag</h3>
     <h4>This is an "h4" tag...</h4>
-    <p>This is paragraph is all written using a "p" tag, <b>this part of the paragraph is bold using the "b" tag,</b>
-        <strong>This part is also bold but using the "strong" tag.</strong> <br> To skip to the next line
+
+    <!-- Paragraphs and Text Formatting Tags -->
+    <p>
+        This paragraph is all written using a "p" tag,
+        <b>this part of the paragraph is bold using the "b" tag,</b>
+        <strong>This part is also bold but using the "strong" tag.</strong>
+        <br> To skip to the next line
         we use the "br" tag
         <br>
         <a href="http://google.com">Click here to go to google</a> This link was made using the "a" tag.
@@ -28,16 +36,19 @@
         <hr>
         The above line is made using the "hr" tag
     </p>
+
+    <!-- Form and Input Tags -->
     <h1>Part 2: How to use a Form</h1>
     <form>
+        <!-- Input Fields -->
+        <!-- Text, Email, and Password Fields -->
         <input type="text" placeholder="Username" required>
         <br>
         <input type="email" placeholder="email" required>
         <br>
         <input type="password" placeholder="password" required>
-        <p>These input fields with a text, email and password types and placeholders 'Username', 'email' and 'password'
-            are made using the "input" tag </p>
-        <!--Input fields with Labels-->
+
+        <!-- Labels for Input Fields -->
         <label>Username</label>
         <input type="text" placeholder="Username" required>
         <br>
@@ -46,26 +57,30 @@
         <br>
         <label>Password</label>
         <input type="password" placeholder="password" required>
-        <p>These input fields have a "label" tag with the texts Username, Email and Password before them</p>
+
+        <!-- Radio Buttons -->
         <label>Gender</label>
         <br>
         <input type="radio" name="gender" checked> <label>Male</label>
         <br>
         <input type="radio" name="gender"> <label>Female</label>
-        <p>Above are two "input" fields type radio with the first one checked and each one of them has a label Male and
-            Female.</p>
+
+        <!-- Checkbox -->
         <br>
         <input type="checkbox" required> <label>I accept the terms and conditions*</label>
-        <p>This is an input field type checkbox</p>
+
+        <!-- Textarea -->
         <label>Message</label>
         <br>
         <textarea placeholder="This is made using a 'textarea' tag"></textarea>
-        <br>
+
+        <!-- File Input -->
         <br>
         <label>Upload Files</label>
         <br>
         <input type="file">
-        <p>The above is an input type file</p>
+
+        <!-- Select Dropdown -->
         <br>
         <label>Select Model</label>
         <br>
@@ -73,17 +88,17 @@
             <option>Redmi Note 4</option>
             <option>IphoneX</option>
         </select>
-        <br>
-        <p>The above is made with a "select" tag and inside of it two "option" tags</p>
-        <br>
+
+        <!-- Submit Button -->
         <br>
         <input type="submit" value="Submit">
-        <br>
-        <p>The above is an "input" tag with a submit type</p>
+
+        <!-- Reset Button -->
         <br>
         <button type="reset">Reset</button>
-        <p>The above is a "button" tag with a type reset</p>
     </form>
+
+    <!-- Table -->
     <table border="1">
         <tr>
             <th>No.</th>
@@ -105,10 +120,11 @@
             <td>Iphone</td>
             <td>IphoneX</td>
         </tr>
-
     </table>
     <br>
     <p>The above is a table made with the "Table" tag</p> 
+
+    <!-- Image -->
     <br>
     <img src="Kubrick.jpg">
     <br>
@@ -117,4 +133,4 @@
     
 </body>
 
-</html>
+<!-- End of HTML document -->
