@@ -21,19 +21,91 @@
     </p>
     <h1>Part 2: How to use a Form</h1>
     <form>
-        <input type="text" placeholder="Username">
-        <p>This is an input field with a text type and a placeholder "Username" which is visible before typing anything
-            in the
-            field</p>
-
-        <!-- <label></label>   
-    <select></select>
-    <option></option>
-    <textarea></textarea>
-    <button></button> -->
-
+        <input type="text" placeholder="Username" required>
+        <br>
+        <input type="email" placeholder="email" required>
+        <br>
+        <input type="password" placeholder="password" required>
+        <p>These input fields with a text, email and password types and placeholders 'Username', 'email' and 'password'
+            are made using the "input" tag </p>
+        <!--Input fields with Labels-->
+        <label>Username</label>
+        <input type="text" placeholder="Username" required>
+        <br>
+        <label>Email</label>
+        <input type="email" placeholder="email" required>
+        <br>
+        <label>Password</label>
+        <input type="password" placeholder="password" required>
+        <p>These input fields have a "label" tag with the texts Username, Email and Password before them</p>
+        <label>Gender</label>
+        <br>
+        <input type="radio" name="gender" checked> <label>Male</label>
+        <br>
+        <input type="radio" name="gender"> <label>Female</label>
+        <p>Above are two "input" fields type radio with the first one checked and each one of them has a label Male and
+            Female.</p>
+        <br>
+        <input type="checkbox" required> <label>I accept the terms and conditions*</label>
+        <p>This is an input field type checkbox</p>
+        <label>Message</label>
+        <br>
+        <textarea placeholder="This is made using a 'textarea' tag"></textarea>
+        <br>
+        <br>
+        <label>Upload Files</label>
+        <br>
+        <input type="file">
+        <p>The above is an input type file</p>
+        <br>
+        <label>Select Model</label>
+        <br>
+        <select>
+            <option>Redmi Note 4</option>
+            <option>IphoneX</option>
+        </select>
+        <br>
+        <p>The above is made with a "select" tag and inside of it two "option" tags</p>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <br>
+        <p>The above is an "input" tag with a submit type</p>
+        <br>
+        <button type="reset">Reset</button>
+        <p>The above is a "button" tag with a type reset</p>
     </form>
+    <table border="1">
+        <tr>
+            <th>No.</th>
+            <th>Company</th>
+            <th>Model</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Samsung</td>
+            <td>Note 9</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Samsung</td>
+            <td>Note 10</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Iphone</td>
+            <td>IphoneX</td>
+        </tr>
 
+    </table>
+    <br>
+    <p>The above is a table made with the "Table" tag</p> 
+    <br>
+    <img src="Kubrick.jpg">
+    <br>
+    <br>
+    <p>The above is an image of Stanley Kubrick implemented using the "img" tag</p>
+    
 </body>
 
 </html>
